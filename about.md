@@ -6,9 +6,9 @@ title: About
 does_not_need_title: true
 ---
 <h1 style="margin:0px; font-size: 36px">About</h1>
-- I am a PhD student at [Skoltech](http://www.skoltech.ru/en/) in [computer vision group](http://sites.skoltech.ru/compvision/). My supervisors are [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/) and [Andrea Vedaldi](http://www.robots.ox.ac.uk/~vedaldi/).
+- I am a research scientist at [imagia](http://www.imagia.com).
 
-- Prize winner in about 10 various data science contests (see [CV](https://docs.google.com/document/d/1eRQ41fevLl9o95lJbF19ldk5SzooeX1jp-Bxx8gA9m0/edit?usp=sharing)). I run [class](https://www.coursera.org/learn/competitive-data-science) about *competitive data science* on Coursera.
+- Among winners of the Brain Tumor Segmentation Challenge (BRATS) 2015.
 
 <br/>
 <div class="scaleIcons">
@@ -34,14 +34,14 @@ does_not_need_title: true
         <img class="img-responsive pub-image" src="/assets/about/avatars.jpg" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Textured Neural Avatars</p>
-        <p class="authors">A Shysheya, E Zakharov, R Bashirov, I Pasechnik, E Burkov, D Ulyanov, Y Malkov, K Iskakov, A Aliev, A Ivakhnenko, A Vakhitov, V Lempitsky</p>
-        <p class="conf">CVPR 2019</p>
+        <p class="title">InfoMask: Masked Variational Latent Representation to Localize Chest Disease</p>
+        <p class="authors">SA Taghanaki, M Havaei, T Berthier, F Dutil, L Di Jorio, G Hamarneh, Y Bengio</p>
+        <p class="conf">unknown</p>
         <p class="description">
-            We present a system for learning full-body neural avatars, i.e. deep networks that produce full-body renderings of a person for varying body pose and camera position. Our system estimates an explicit two-dimensional texture map of the model surface and uses a fully-convolutional network to directly map the configuration of body feature points w.r.t. the camera to the 2D texture coordinates of individual pixels in the image frame.
+            We present a model for weaklocalization through maximizig a mutual information objectinve. 
         </p>
         <div class="links">
-            <a href="https://arxiv.org/abs/1905.08776">Paper</a>
+            <a href="https://arxiv.org/pdf/1903.11741.pdf">Paper</a>
             <a href="https://saic-violet.github.io/texturedavatar/" style="font-weight: bold;">Project page</a>
             <a href="https://www.youtube.com/watch?v=3rrnUX8wWZ8" style="font-weight: bold;">Demo video</a>
         </div>
@@ -52,15 +52,14 @@ does_not_need_title: true
         <img class="img-responsive pub-image" src="/assets/about/perceptual_gan.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Image Manipulation with Perceptual Discriminators</p>
-        <p class="authors">Diana Sungatullina, Egor Zakharov, Dmitry Ulyanov, Victor Lempitsky</p>
-        <p class="conf">ECCV 2018</p>
+        <p class="title">Learning to learn with conditional class dependencies</p>
+        <p class="authors">Xiang Jiang, Mohammad Havaei, Farshid Varno, Gabriel Chartrand, Nicolas Chapados, Stan Matwin</p>
+        <p class="conf">ICLR 2019</p>
         <p class="description">
-            Perceptual losses and losses based on adversarial discriminators are the two main classes of learning objectives behind these advances. In this work, we show how
-            these two ideas can be combined: we use adversarial learning on top of perceptual features and improve SOtA in image translation.  
+            CAML is a kind of MAML
         </p>
         <div class="links">
-            <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Diana_Sungatullina_Image_Manipulation_with_ECCV_2018_paper.pdf">Paper</a>
+            <a href="https://openreview.net/pdf?id=BJfOXnActQ">Paper</a>
             <a href="https://egorzakharov.github.io/perceptual_gan" style="font-weight: bold;">Project page</a>
             <a href="https://github.com/egorzakharov/PerceptualGAN">Code</a>
             <a href="https://box.skoltech.ru/index.php/s/J0pdkyYgxpMItWQ">Poster</a>
@@ -72,14 +71,14 @@ does_not_need_title: true
     	<img class="img-responsive pub-image" src="https://raw.githubusercontent.com/DmitryUlyanov/deep-image-prior/master/data/teaser_compiled.jpg" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-		<p class="title">Deep Image Prior</p>
-		<p class="authors">Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky</p>
-		<p class="conf">CVPR 2018</p>
+		<p class="title">Attentive Task-Agnostic Meta-Learning for Few-Shot Text Classification</p>
+		<p class="authors">Xiang Jiang, Mohammad Havaei, Gabriel Chartrand, Hassan Chouaib, Thomas Vincent, Andrew Jesson, Nicolas Chapados, Stan Matwin</p>
+		<p class="conf">Meta-learning workshop,NeurIPS 2018</p>
 		<p class="description">
-			In this paper we show that a randomly-initialized neural network can be used as a handcrafted prior with excellent results in standard inverse problems such as denoising, super-resolution, and inpainting.
+			Meta learning for text classification.
 		</p>
         <div class="links">
-    		<a href="https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf">Paper</a>
+    		<a href="https://openreview.net/pdf?id=SyxMWh09KX">Paper</a>
     		<a href="/deep_image_prior" style="font-weight: bold;">Project page</a>
     		<a href="https://github.com/DmitryUlyanov/deep-image-prior">Code</a>
             <a href="https://box.skoltech.ru/index.php/s/INaUzvTWLak3h7Q">Paper (journal ver.)</a>
@@ -95,13 +94,13 @@ does_not_need_title: true
         <img class="img-responsive pub-image" src="/assets/about/age22.png" alt=""/>
     </div>
     <div class="col col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">It Takes (Only) Two: Adversarial Generator-Encoder Networks</p>
-        <p class="authors">Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky</p>
-        <p class="conf1"><u>AAAI 2018</u> <b>(oral)</b></p>
+        <p class="title">On the Importance of Attention in Meta-Learning for Few-Shot Text Classification</p>
+        <p class="authors">Xiang Jiang, Mohammad Havaei, Gabriel Chartrand, Hassan Chouaib, Thomas Vincent, Andrew Jesson, Nicolas Chapados, Stan Matwin</p>
+        <p class="conf1"><u> arXiv</u> <b>(oral)</b></p>
         <p class="description">
-        We present a new autoencoder-type architecture, that is trainable in an unsupervised mode, sustains both generation and inference, and has the quality of conditional and  unconditional samples boosted by adversarial learning.</p>
+        Attentive metalearner for text classifcation.</p>
         <div class="links">
-            <a href="http://sites.skoltech.ru/app/data/uploads/sites/25/2017/06/AGE.pdf">Paper</a>
+            <a href="https://arxiv.org/pdf/1806.00852.pdf">Paper</a>
             <a href="https://github.com/DmitryUlyanov/AGE">Code</a>
             <a href="https://drive.google.com/file/d/1rHcE_H9A0rRmziEcnzsIA_1rdBhHQFsn/view?usp=sharing">Slides</a>
             <a href="http://dblp.uni-trier.de/rec/bibtex/conf/aaai/UlyanovVL18">BibTeX</a>
@@ -114,14 +113,14 @@ does_not_need_title: true
         <img class="img-responsive pub-image" src="/assets/about/karya.png" alt=""/>
     </div>
     <div class="col col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;" >
-        <p class="title">Improved Texture Networks: Maximizing Quality and Diversity in Feed-forward Stylization and Texture Synthesis</p>
-        <p class="authors">Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky</p>
-        <p class="conf">CVPR 2017</p>
+        <p class="title">Learnable explicit density for continuous latent space and variational inference</p>
+        <p class="authors">Chin-Wei Huang, Ahmed Touati, Laurent Dinh, Michal Drozdzal, Mohammad Havaei, Laurent Charlin, Aaron Courville</p>
+        <p class="conf">arXiv</p>
         <p class="description">
-        We introduce <i>Instance Normalization</i> for a better stylization and derive entropy loss which improves samples diversity for both texture synthesis and stylization.
+        In this paper, we study two aspects of the variational autoencoder (VAE): the prior distribution over the latent variables and its corresponding posterior. First, we decompose the learning of VAEs into layerwise density estimation, and argue that having a flexible prior is beneficial to both sample generation and inference. Second, we analyze the family of inverse autoregressive flows (inverse AF) and show that with further improvement, inverse AF could be used as universal approximation to any complicated posterior. Our analysis results in a unified approach to parameterizing a VAE, without the need to restrict ourselves to use factorial Gaussians in the latent real space.
         </p>
         <div class="links">
-            <a href="http://sites.skoltech.ru/app/data/uploads/sites/25/2017/01/texture_nets_v2.pdf">Paper</a>
+            <a href="https://arxiv.org/pdf/1710.02248.pdf">Paper</a>
             <a href="https://github.com/DmitryUlyanov/texture_nets">Code</a>
             <a href="http://sites.skoltech.ru/app/data/uploads/sites/25/2017/01/texture_nets_v2_sup.pdf">Supplementary</a>
             <a href="https://drive.google.com/file/d/0B_-hq6gL70bUYWZaYV96elp3dzQ/view?usp=sharing">Poster</a>
@@ -134,11 +133,11 @@ does_not_need_title: true
         <img class="img-responsive pub-image" src="/assets/about/texture_nets_img.png" alt=""/>
     </div>
     <div class="col col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Texture Networks: Feed-forward Synthesis of Textures and Stylized Images</p>
-        <p class="authors">Dmitry Ulyanov, Vadim Lebedev, Andrea Vedaldi, Victor Lempitsky</p>
+        <p class="title">Brain tumor segmentation with deep neural networks</p>
+        <p class="authors">Mohammad Havaei, Axel Davy, David Warde-Farley, Antoine Biard, Aaron Courville, Yoshua Bengio, Chris Pal, Pierre-Marc Jodoin, Hugo Larochelle</p>
         <p class="conf">ICML 2016</p>
                         <p class="description">
-        We speed up texture synthesis and famous neural style transfer of Gatys <i>et al.</i> by 500 times. The method was used by such stylization apps like <a href="http://prisma-ai.com/">Prisma</a> and <a href="http://vinci.camera/">Vinci</a>.
+        In this paper, we present a fully automatic brain tumor segmentation method based on Deep Neural Networks (DNNs). The proposed networks are tailored to glioblastomas (both low and high grade) pictured in MR images. By their very nature, these tumors can appear anywhere in the brain and have almost any kind of shape, size, and contrast. These reasons motivate our exploration of a machine learning solution that exploits a flexible, high capacity DNN while being extremely efficient. Here, we give a description of different model choices that we’ve found to be necessary for obtaining competitive performance. We explore in particular different architectures based on Convolutional Neural Networks (CNN), i.e. DNNs specifically adapted to image data. <a href="http://prisma-ai.com/">Prisma</a> and <a href="http://vinci.camera/">Vinci</a>.
         </p>
         <div class="links">
             <a href="http://jmlr.org/proceedings/papers/v48/ulyanov16.pdf">Paper</a>
